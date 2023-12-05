@@ -17,7 +17,7 @@ for etudiant in notes:
     nombre_etudiant = etudiant[0]
     note = etudiant[1]
     ecart = note - moyenne
-    print(f"{nombre_etudiant} | {note} | {ecart}")
+    print(f"{nombre_etudiant} | {note} | {round(ecart, 1)}")
 
 # Comment vous pouvez faire pour afficher une phrase avec des variables en appelant
 # la fonction input() ?
